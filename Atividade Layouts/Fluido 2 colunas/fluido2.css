@@ -1,0 +1,19 @@
+#header{
+    background-color: lightskyblue;
+}
+#main{
+    width: 70%;
+    margin-right: 5%;
+    float: left;
+    background-color: lightcoral;
+}
+
+#second{
+    width: 25%;
+    float: left;
+    background: lightseagreen;
+}
+#footer{
+    clear: left;
+    background-color: rgb(161, 161, 161);
+}

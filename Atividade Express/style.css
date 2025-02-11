@@ -1,0 +1,44 @@
+/*#head{
+    background-color: gainsboro;
+}*/
+#fixed_column{
+    width: 15%;
+    margin-left: 1%;
+    margin-right: 5%;
+    float: left;
+    background-color: gainsboro;
+}
+#card1{
+    width: 20%;
+    margin-left: 5%;
+}
+#card2{
+    width: 20%;
+    margin-left: 5%;
+}
+#card3{
+    width: 20%;
+    margin-left: 5%;
+}
+#mother{
+    display: flex;
+    flex-direction: row;
+}
+/*#main{
+    width: 31%;
+    margin-right: 5%;
+    float: left;
+    background-color: lightcoral;
+}
+
+#second{
+    width: 31%;
+    margin-right: 3%;
+    float: left;
+    background: lightseagreen;
+}
+*/
+#footer{
+    clear: left;
+    background-color: rgb(161, 161, 161);
+}
