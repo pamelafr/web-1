@@ -1,0 +1,12 @@
+{
+    "eventos": [
+      {
+        "id": 1,
+        "nome": "João Silva",
+        "email": "joao@example.com",
+        "data": "2023-10-25",
+        "horario": "14:00",
+        "descricao": "Reunião de negócios"
+      }
+    ]
+  }

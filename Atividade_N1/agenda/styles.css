@@ -1,0 +1,148 @@
+/* Reset básico */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3d566e; 
+    color: #333; 
+    line-height: 1.6;
+  }
+  
+  /* Container principal */
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra mais suave */
+    border-radius: 10px; /* Bordas arredondadas */
+  }
+  
+  /* Títulos */
+  h1, h2 {
+    text-align: center;
+    color: #2c3e50; 
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  /* Formulário */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #34495e; 
+  }
+  
+  input, textarea, button {
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ddd; 
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: all 0.3s ease; /
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #3498db; /* Azul ao focar */
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5); /* Sombra ao focar */
+  }
+  
+  button {
+    background-color: #3498db; /* Azul principal */
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  button[type="submit"] {
+    font-size: 1.2rem; /* Aumentar o tamanho da fonte */
+  }
+  
+  button:hover {
+    background-color: #2980b9; /* Azul mais escuro ao passar o mouse */
+  }
+  
+  /* Título da data */
+  .titulo-data {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.2rem; /* Tamanho menor */
+    color: #2c3e50; /* Azul escuro */
+    border-bottom: 1px solid #3498db; /* Linha mais fina */
+    padding-bottom: 5px;
+  }
+  
+  /* Lista de eventos */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #f8f9fa; /* Fundo mais suave */
+    margin: 8px 0; /* Margem menor */
+    padding: 10px; /* Padding menor */
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Espaçamento menor */
+  }
+  
+  li strong {
+    color: #2c3e50; /* Azul escuro para a descrição */
+    font-size: 1rem; /* Tamanho menor */
+  }
+  
+  li small {
+    color: #7f8c8d; /* Cinza para horário */
+    font-size: 0.9rem; 
+  }
+  
+  .acoes {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Botões de ação */
+  button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: transparent; /* Fundo transparente */
+    color: #333; 
+  }
+  
+  button[onclick*="editar"]:hover {
+    color: #f1c40f; /* Amarelo ao passar o mouse */
+  }
+  
+  button[onclick*="excluir"]:hover {
+    color: #e74c3c; /* Vermelho ao passar o mouse */
+  }
+  
+  /* Efeitos de hover */
+  button:hover {
+    transform: translateY(-2px); /* Efeito de levantar ao passar o mouse */
+  }
